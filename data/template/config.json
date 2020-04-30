@@ -1,0 +1,70 @@
+{
+  "url": "https://HeisenBerg.labs",
+  "meta": {
+    "favicon": "https://i.imgur.com/PO9Y4fT.jpg",
+    "keyword": "blog, JavaScript,React, frontend, web developer",
+    "description": "HeisenBerg Labs web developer blogs",
+    "theme_color": "#384f7c",
+    "google_site_verification": "riZBcestky7i9xY__A-5J-2EE65T75X1u-zgbss37Io"
+  },
+  "name": "Sai Krishna",
+  "about": "/2018/05/01/about-calpa-liu/",
+  "email": "akulasaikrishna2@gmail.com",
+  "stats": {
+    "image": "https://i.imgur.com/VjBWiSt.png",
+    "title": "Data for the past 30 days",
+    "description": "Data for the past 30 days"
+  },
+  "title": "HeisenBerg's Technical blog",
+  "gitalk": {
+    "repo": "HeisenBerg-Blog",
+    "admin": ["Sai-Krishna-Web"],
+    "owner": "Sai-Krishna-Web",
+    "clientID": "9d4e0e4ab2dc85130904",
+    "clientSecret": "b51656103298b7f6a160ccf5044356b234d04694",
+    "pagerDirection": "first",
+    "distractionFreeMode": true
+  },
+  "License": "by",
+  "friends": [
+    {
+      "href": "https://calpa.me",
+      "title": "Calpa's Blog"
+    }
+  ],
+  "iconUrl": "https://i.imgur.com/kjt2x52.jpg",
+  "wordings": ["GatsbyJS, ReactJS", "Full-cycle developer"],
+  "gaTrackId": "UA-84737574-3",
+  "navbarList": [
+    {
+      "href": "/guestbook/",
+      "title": "Guestbook"
+    },
+    {
+      "href": "/tags/",
+      "title": "Tags"
+    },
+    {
+      "href": "/2018/05/01/about-calpa-liu/",
+      "title": "About the author"
+    }
+  ],
+  "redirectors": [
+    {
+      "toPath": "/2018/05/01/about-calpa-liu/",
+      "fromPath": "/about/"
+    }
+  ],
+  "gaOptimizeId": "GTM-WHP7SC5",
+  "carouselItems": [
+    {
+      "src": "https://i.imgur.com/gw91CuI.jpg",
+      "target": "/stats/"
+    }
+  ],
+  "twitterUsername": "Iam_Sai_Krishna",
+  "githubUsername": "Sai-Krishna-Web",
+  "maxPostsInPage": 10,
+  "facebook": "calpablog",
+  "linkedinUsername": "saikrishnaa2"
+}
