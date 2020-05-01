@@ -12,7 +12,7 @@
 
 ![Home Page](https://i.imgur.com/lVUwIZC.png)
 
-Build a blog system like [Calpa's Blog](https://calpa.me) in ease.
+Build a blog system like [Calpa's Blog](https://heisenberg-blog.netlify.app/) in ease.
 
 If you like this project, please don't hesitate to star it. Thank you.
 
@@ -181,7 +181,7 @@ gitalk: {
 
 ## Deploy
 
-[Calpa's blog](https://calpa.me) is currently using Netlify, though, you may use Github Pages as an alternative.
+[Calpa's blog](https://heisenberg-blog.netlify.app/) is currently using Netlify, though, you may use Github Pages as an alternative.
 
 - Github Pages
 

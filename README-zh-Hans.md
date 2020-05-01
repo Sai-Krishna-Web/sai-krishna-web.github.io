@@ -12,7 +12,7 @@
 
 ![Home Page](https://i.imgur.com/lVUwIZC.png)
 
-透过这个腳手架，你可以快速建立一个如同 [Calpa's Blog](https://calpa.me) 的博客系统。
+透过这个腳手架，你可以快速建立一个如同 [Calpa's Blog](https://heisenberg-blog.netlify.app) 的博客系统。
 
 ## 功能
 
@@ -64,7 +64,7 @@
 
 [![Edit blog](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/calpa/gatsby-starter-calpa-blog/tree/master/)
 
-如果你喜欢 [我的博客](https://calpa.me)，请给个 star，多谢。以下是如何使用这个博客系统的教程：
+如果你喜欢 [我的博客](https://heisenberg-blog.netlify.app/)，请给个 star，多谢。以下是如何使用这个博客系统的教程：
 
 ## 前提
 
@@ -204,7 +204,7 @@ gitalk: {
 
 2. Headers
 
-有两个可配置的 Headers ，分别为 [主页](https://calpa.me) 和 [标签页](https://calpa.me/tags/)顶部的 #header 。
+有两个可配置的 Headers ，分别为 [主页](https://heisenberg-blog.netlify.app) 和 [标签页](https://heisenberg-blog.netlify.app/tags/)顶部的 #header 。
 
 ```json
 {
@@ -223,7 +223,7 @@ gitalk: {
 
 ## 部署
 
-[Calpa 的博客](https://calpa.me) 目前正在使用[Netlify](https://www.netlify.com/)，当然，您可以使用 Github Pages 作为替代方案。
+[Calpa 的博客](https://heisenberg-blog.netlify.app/) 目前正在使用[Netlify](https://www.netlify.com/)，当然，您可以使用 Github Pages 作为替代方案。
 
 - Github Pages
 

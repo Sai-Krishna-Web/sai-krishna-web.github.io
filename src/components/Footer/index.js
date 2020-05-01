@@ -24,16 +24,16 @@ const Footer = () => (
             The code is open source and available at&nbsp;
             <ExternalLink
               href="https://github.com/Sai-Krishna-Web/HeisenBerg-Blog"
-              title="calpa/gatsby-starter-calpa-blog"
+              title="HeisenBerg's Blog"
             />
           </p>
           <p className="copyright">
             Copyright&nbsp;
-            <ExternalLink href="https://calpa.me/" title="&copy;Calpa" />
+            <ExternalLink href="https://heisenberg-blog.netlify.app/" title="&copy;HeisenBerg Labs" />
             &nbsp;
             {config.title}
             {new Date().getFullYear()}
-            &nbsp;Theme by Calpa Liu
+            
           </p>
         </div>
       </div>

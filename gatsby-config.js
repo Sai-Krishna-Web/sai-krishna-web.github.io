@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     title: 'heisenBerg&apos;s Blog',
     description: 'Front End Technical Blog - Sai Krishna',
-    siteUrl: 'https://calpa.me',
+    siteUrl: 'https://heisenberg-blog.netlify.app/',
     author: 'Sai Krishna',
   },
   plugins: [
