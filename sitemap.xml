@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://heisenberg-blog.netlify.app/HeisenBerg-Blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://heisenberg-blog.netlify.app/HeisenBerg-Blog/2019/05/17/README</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://heisenberg-blog.netlify.app/HeisenBerg-Blog/2020/03/20/ES6_Array_duplicate</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://heisenberg-blog.netlify.app/HeisenBerg-Blog/2020/01/01/about-me/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://heisenberg-blog.netlify.app/HeisenBerg-Blog/guestbook</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://heisenberg-blog.netlify.app/HeisenBerg-Blog/tag/read</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://heisenberg-blog.netlify.app/HeisenBerg-Blog/tag/ES6,</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://heisenberg-blog.netlify.app/HeisenBerg-Blog/tag/JavaScript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://heisenberg-blog.netlify.app/HeisenBerg-Blog/tag/Reading</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://heisenberg-blog.netlify.app/HeisenBerg-Blog/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>
