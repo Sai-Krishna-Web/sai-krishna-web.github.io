@@ -26,7 +26,7 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-1abb5148f6aa96e04c70.js"
+    "url": "webpack-runtime-cd9883a9472618e2497f.js"
   },
   {
     "url": "styles.10d0935a5baef59ea1e5.css"
@@ -44,14 +44,14 @@ self.__precacheManifest = [
     "url": "cb1608f2-710c6c38788a30bad205.js"
   },
   {
-    "url": "app-a530cdaba7d619f56e25.js"
+    "url": "app-0511ca209ad5c6a3eb38.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-39ed873525f3be2af773.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "d4f53a279e01136656faaf418d2d0e57"
+    "revision": "f39b9a792d9a00d0fa267abc169830be"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -59,7 +59,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "0300104f66fefaef11299b56d6ea62e0"
+    "revision": "d9f67fbc953162cca72bfc6f59790ba4"
   },
   {
     "url": "manifest.json",
@@ -67,7 +67,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "e720b43c4b29693471c8892f9ba6404f"
+    "revision": "56d0b3d1638c44a1aa855434bd468347"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -86,12 +86,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/HeisenBerg-Blog`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/HeisenBerg-Blog/app-a530cdaba7d619f56e25.js`))) {
+  if (!resources || !(await caches.match(`/app-0511ca209ad5c6a3eb38.js`))) {
     return await fetch(event.request)
   }
 
@@ -104,7 +104,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/HeisenBerg-Blog/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 
