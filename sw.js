@@ -44,14 +44,14 @@ self.__precacheManifest = [
     "url": "cb1608f2-710c6c38788a30bad205.js"
   },
   {
-    "url": "app-977666633850bccfa164.js"
+    "url": "app-b3f94a88a24da135078b.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-39ed873525f3be2af773.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "f9be102e63f2493e35585a1f1d18fde0"
+    "revision": "c20f09256d03c7a23ee3799f729797d2"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -59,7 +59,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "9c602a8ca2eb1e231c350aca9af4a0e3"
+    "revision": "efdcef80ef1cadb9ec61560f705afaf2"
   },
   {
     "url": "manifest.json",
@@ -91,7 +91,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/HeisenBerg-Blog/app-977666633850bccfa164.js`))) {
+  if (!resources || !(await caches.match(`/HeisenBerg-Blog/app-b3f94a88a24da135078b.js`))) {
     return await fetch(event.request)
   }
 
