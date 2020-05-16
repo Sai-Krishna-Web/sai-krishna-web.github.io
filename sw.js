@@ -26,10 +26,10 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-a2b98a1380c4d03ca688.js"
+    "url": "webpack-runtime-d1ca6930a920fda53943.js"
   },
   {
-    "url": "styles.40bd43feec87af5adb04.css"
+    "url": "styles.e28fbc400b22d80dfa9d.css"
   },
   {
     "url": "styles-6b8affa5cc22cb60670e.js"
@@ -44,14 +44,14 @@ self.__precacheManifest = [
     "url": "cb1608f2-710c6c38788a30bad205.js"
   },
   {
-    "url": "app-53ea353f004b5f686cc9.js"
+    "url": "app-977666633850bccfa164.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-39ed873525f3be2af773.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "4b2000ec490571d6da14af8da75b5048"
+    "revision": "f9be102e63f2493e35585a1f1d18fde0"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -59,7 +59,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "94bb508f3b2cfe2cd11f63ef6fd27cee"
+    "revision": "9c602a8ca2eb1e231c350aca9af4a0e3"
   },
   {
     "url": "manifest.json",
@@ -67,7 +67,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "56d0b3d1638c44a1aa855434bd468347"
+    "revision": "e720b43c4b29693471c8892f9ba6404f"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -86,12 +86,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/HeisenBerg-Blog`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-53ea353f004b5f686cc9.js`))) {
+  if (!resources || !(await caches.match(`/HeisenBerg-Blog/app-977666633850bccfa164.js`))) {
     return await fetch(event.request)
   }
 
@@ -104,7 +104,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/HeisenBerg-Blog/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 
