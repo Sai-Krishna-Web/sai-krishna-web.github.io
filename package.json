@@ -68,7 +68,7 @@
     "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "develop:remote": "gatsby develop -p 8080 -H 0.0.0.0",
-    "deploy": "npm run build && gh-pages -d public",
+    "deploy": "npm run build && gh-pages -d public -b gh-pages ",
     "format": "eslint --fix --ignore-path .gitignore .",
     "format-style": "stylelint src/**/*.scss --syntax=scss",
     "test": "echo \"Error: no test specified\" && exit 1",
