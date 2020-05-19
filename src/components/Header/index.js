@@ -2,8 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './index.scss';
 
-import JueJin from '../JueJin';
-
 import { parseImgur } from '../../api/images';
 
 const Header = ({

@@ -12,24 +12,23 @@ const TagPage = ({ data, pageContext }) => {
     <div className="container">
       <div
         className="row"
-        style={{
-          margin: 15,
-        }}
+        
       >
         <Sidebar />
 
-        <div className="col-xl-9 col-lg-7 col-md-12 col-xs-12 order-2">
-          <div
+        <div className="col-xl-9 col-lg-7 col-md-12 col-xs-12 order-2" style={{paddingLeft:0, paddingRight:0}}>
+          <h4
             className="col-12"
             style={{
-              fontSize: 20,
-              margin: 15,
+              marginBottom:15,
+              marginTop:15
             }}
+           
           >
             {edges.length}
             &nbsp;Articles in&nbsp;
             {tag}
-          </div>
+          </h4>
           {edges.map(({ node }) => (
             <Card {...node.frontmatter} key={node.id} />
           ))}

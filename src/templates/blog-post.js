@@ -7,7 +7,7 @@ import { graphql } from 'gatsby';
 
 import 'gitalk/dist/gitalk.css';
 
-import { parseChineseDate } from '../api';
+import { parseDate } from '../api';
 
 import ExternalLink from '../components/ExternalLink';
 import Sidebar from '../components/Sidebar';
@@ -67,24 +67,23 @@ class BlogPost extends Component {
           title={title}
           authorName={name}
           authorImage={iconUrl}
-          subTitle={parseChineseDate(date)}
+          subTitle={parseDate(date)}
         />
-        <Sidebar />
-        <div className="col-xl-7 col-lg-6 col-md-12 col-sm-12 order-10 content">
+        <Sidebar className="display-none"/>
+        <div className="col-xl-8 col-lg-7 col-md-12 col-sm-12 order-10 content">
           <Content post={html} />
           <div className="m-message" style={bgWhite}>
             If you think my article is helpful to you, I hope you can recommend and exchange. welcome
             <ExternalLink
-              href="https://github.com/Sai-Krishna-Web/HeisenBerg-Blog"
+              href="https://github.com/Sai-Krishna-Web/"
               title="
-              Follow and Star This blog"
+              Follow and Star This blog "
             />
            or
             <ExternalLink
               href="https://github.com/Sai-Krishna-Web"
-              title="Follow me Github"
+              title=" Follow me Github."
             />
-            。
           </div>
 
           <div id="gitalk-container" />

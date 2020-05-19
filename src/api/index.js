@@ -29,7 +29,7 @@ const getPages = amount => new Array(amount).fill().map((_, index) => `/page/${i
 
 const overflow = () => getCurrentPage() === getMaxPages();
 
-const parseDate = date => dayjs(date).format('YYYY/MM/DD');
+const parseDate = date => dayjs(date).format('MMM DD, YYYY');
 
 const parseChineseDate = date => dayjs(date).format('DD/MM/YYYY');
 

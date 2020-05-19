@@ -1,7 +1,7 @@
 {
   "url": "https://heisenberg-blog.netlify.app",
   "meta": {
-    "favicon": "https://i.imgur.com/PO9Y4fT.jpg",
+    "favicon": "https://i.imgur.com/ABO2aZl.png",
     "keyword": "blog, JavaScript,React, frontend, web developer",
     "description": "HeisenBerg Labs web developer blog",
     "theme_color": "#384f7c",
@@ -25,28 +25,36 @@
     "pagerDirection": "first",
     "distractionFreeMode": true
   },
-  "License": "by",
+  "License": "",
   "friends": [
     {
       "href": "https://heisenberg-blog.netlify.app",
       "title": "HeisenBerg's Blog"
     }
   ],
-  "iconUrl": "https://i.imgur.com/kjt2x52.jpg",
-  "wordings": ["GatsbyJS, ReactJS", "Full-cycle developer"],
+  "iconUrl": "https://i.imgur.com/ABO2aZl.png",
+  "wordings": ["#JavaScript  #ReactJS  #Angular  #HTML  #CSS  #.NET  #SQL ", "Full-Stack Developer"],
   "gaTrackId": "UA-84737574-3",
   "navbarList": [
     {
+      "href": "/",
+      "title": "HOME"
+    },
+    {
       "href": "/guestbook/",
-      "title": "Guestbook"
+      "title": "GUESTBOOK"
     },
     {
       "href": "/tags/",
-      "title": "Tags"
+      "title": "TAGS"
     },
     {
-      "href": "/2020/01/01/about-me/",
-      "title": "About the author"
+      "href": "/about/",
+      "title": "ABOUT ME"
+    },
+    {
+      "href": "/contact/",
+      "title": "CONTACT"
     }
   ],
   "redirectors": [
@@ -66,5 +74,6 @@
   "githubUsername": "Sai-Krishna-Web",
   "maxPostsInPage": 10,
   "facebook": "",
-  "linkedinUsername": "saikrishnaa2"
+  "linkedinUsername": "saikrishnaa2",
+  "baseUrl":"/HeisenBerg-Blog"
 }

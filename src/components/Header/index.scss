@@ -45,7 +45,7 @@
 }
 
 .img-container {
-  $height: 500px;
+  $height: 300px;
   $width: 1920px;
 
   @media (min-width: 768px) {
@@ -144,4 +144,18 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
+}
+.header-tag2{
+  background-color: #9f9f9f;
+  color: #fff;
+  padding: 0.2em 1rem;
+  border-radius: 2px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+  &:hover{
+  text-decoration: none;
+  color: gray;
+  }
+
 }

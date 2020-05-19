@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {Link} from 'gatsby';
 
 const Tag = ({ name, count }) => (
-  <a href={`/tag/${name}`} className="header-tag">
+  <Link to={`/tag/${name}`} href={`/tag/${name}`} className="header-tag2">
     {name}
     &nbsp;
     {count}
-  </a>
+  </Link>
 );
 
 Tag.propTypes = {
