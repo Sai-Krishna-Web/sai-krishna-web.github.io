@@ -13,6 +13,7 @@
 <url> <loc>http://www.saikrishna.tech/tag/Array</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://www.saikrishna.tech/tag/Read</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://www.saikrishna.tech/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.saikrishna.tech/contact-form/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://www.saikrishna.tech/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://www.saikrishna.tech/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
