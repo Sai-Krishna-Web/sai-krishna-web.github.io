@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>http://www.saikrishna.tech/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://www.saikrishna.tech/2020/03/20/ES6_Array_duplicate</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://www.saikrishna.tech/2020/03/04/Clone_an_Array_using_ES6</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://www.saikrishna.tech/2020/03/20/Split_usin_ES6</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://www.saikrishna.tech/2020/01/16/TypesOf_Cloning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://www.saikrishna.tech/2019/12/18/Cheatsheet_for_Arrow_Functions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://www.saikrishna.tech/guestbook/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://www.saikrishna.tech/tag/ES6</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://www.saikrishna.tech/tag/JavaScript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://www.saikrishna.tech/tag/JS</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://www.saikrishna.tech/tag/Array</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://www.saikrishna.tech/tag/Read</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://www.saikrishna.tech/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://www.saikrishna.tech/contact-form/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://www.saikrishna.tech/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://www.saikrishna.tech/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://jsnutshell.tech/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://jsnutshell.tech/2020/03/20/ES6_Array_duplicate</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://jsnutshell.tech/2020/03/04/Clone_an_Array_using_ES6</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://jsnutshell.tech/2020/03/20/Split_usin_ES6</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://jsnutshell.tech/2020/01/16/TypesOf_Cloning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://jsnutshell.tech/2019/12/18/Cheatsheet_for_Arrow_Functions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://jsnutshell.tech/guestbook/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://jsnutshell.tech/tag/ES6</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://jsnutshell.tech/tag/JavaScript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://jsnutshell.tech/tag/JS</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://jsnutshell.tech/tag/Array</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://jsnutshell.tech/tag/Read</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://jsnutshell.tech/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://jsnutshell.tech/contact-form/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://jsnutshell.tech/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://jsnutshell.tech/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
